@@ -9,7 +9,10 @@ export const RootStack = createStackNavigator<HomeStackParamList>();
 function StackNavigator() {
     return (
         <RootStack.Navigator initialRouteName={RouteScreen.Home}>
-            <RootStack.Screen name={RouteScreen.Home} component={HomeScreen} />
+            <RootStack.Screen 
+            name={RouteScreen.Home} 
+            options={{headerShown: false}}
+            component={HomeScreen} />
             <RootStack.Screen name={RouteScreen.Detail} component={DetailScreen} />
         </RootStack.Navigator>
     );
