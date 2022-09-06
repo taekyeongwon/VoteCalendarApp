@@ -22,7 +22,7 @@ function DrawerNavigator() {
 }
 
 function CustomDrawerContent(props: DrawerContentComponentProps) {
-    console.log(props);
+    // console.log(props);
     return (
         <DrawerContentScrollView {...props}>
             {/* <DrawerItemList {...props} /> */}

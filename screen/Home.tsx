@@ -1,18 +1,19 @@
 import React from 'react';
-import {Button, View} from 'react-native';
+import {SafeAreaView, Button, View, NativeModules} from 'react-native';
 import { MainNavigationProps, RouteScreen } from '../navigation_type/Types';
-
-
-
 
 export function HomeScreen({navigation}: MainNavigationProps) {
     return (
-        <View>
+        <SafeAreaView>
             <Button 
                 title="Detail 열기"
                 onPress={() => navigation.navigate(RouteScreen.Detail)}
             />
-        </View>
+            <Button
+                title = "native ui"
+                onPress={() => NativeModules.TestModule.testMethod()}
+            />
+        </SafeAreaView>
     );
 }
 
