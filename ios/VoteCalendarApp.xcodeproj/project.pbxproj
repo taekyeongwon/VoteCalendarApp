@@ -10,8 +10,8 @@
 		00E356F31AD99517003FC87E /* VoteCalendarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoteCalendarAppTests.m */; };
 		08CBCEE328C5DD5600EA58FA /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBCEE228C5DD5600EA58FA /* TestModule.swift */; };
 		08CBCEE528C5E58000EA58FA /* RCTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CBCEE428C5E58000EA58FA /* RCTModule.m */; };
-		08CBCEE728C6E4FC00EA58FA /* NativeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CBCEE628C6E4FC00EA58FA /* NativeScreen.storyboard */; };
-		08CBCEE928C6E96300EA58FA /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBCEE828C6E96300EA58FA /* NativeViewController.swift */; };
+		08D3DBB928C84174001D796C /* FrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3DBB628C83782001D796C /* FrameworkTest.framework */; };
+		08D3DBBA28C84174001D796C /* FrameworkTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3DBB628C83782001D796C /* FrameworkTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C80B921A6F3F58F76C31292 /* libPods-VoteCalendarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VoteCalendarApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -28,7 +28,35 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = VoteCalendarApp;
 		};
+		08D3DBB528C83782001D796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08D3DB8728C834D8001D796C;
+			remoteInfo = FrameworkTest;
+		};
+		08D3DBB728C83782001D796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08D3DB9128C834D8001D796C;
+			remoteInfo = FrameworkTestTests;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08D3DBBB28C84174001D796C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				08D3DBBA28C84174001D796C /* FrameworkTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* VoteCalendarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteCalendarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,8 +64,7 @@
 		00E356F21AD99517003FC87E /* VoteCalendarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteCalendarAppTests.m; sourceTree = "<group>"; };
 		08CBCEE228C5DD5600EA58FA /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
 		08CBCEE428C5E58000EA58FA /* RCTModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTModule.m; sourceTree = "<group>"; };
-		08CBCEE628C6E4FC00EA58FA /* NativeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NativeScreen.storyboard; sourceTree = "<group>"; };
-		08CBCEE828C6E96300EA58FA /* NativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
+		08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FrameworkTest.xcodeproj; path = ../../FrameworkTest/FrameworkTest.xcodeproj; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VoteCalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteCalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VoteCalendarApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = VoteCalendarApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -68,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-VoteCalendarApp.a in Frameworks */,
+				08D3DBB928C84174001D796C /* FrameworkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +119,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		08D3DBB128C83782001D796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D3DBB628C83782001D796C /* FrameworkTest.framework */,
+				08D3DBB828C83782001D796C /* FrameworkTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* VoteCalendarApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +139,6 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				08CBCEE228C5DD5600EA58FA /* TestModule.swift */,
 				08CBCEE428C5E58000EA58FA /* RCTModule.m */,
-				08CBCEE628C6E4FC00EA58FA /* NativeScreen.storyboard */,
-				08CBCEE828C6E96300EA58FA /* NativeViewController.swift */,
 			);
 			name = VoteCalendarApp;
 			sourceTree = "<group>";
@@ -128,6 +163,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */,
 				13B07FAE1A68108700A75B9A /* VoteCalendarApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* VoteCalendarAppTests */,
@@ -196,6 +232,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				08D3DBBB28C84174001D796C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +271,12 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 08D3DBB128C83782001D796C /* Products */;
+					ProjectRef = 08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* VoteCalendarApp */,
@@ -241,6 +284,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		08D3DBB628C83782001D796C /* FrameworkTest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FrameworkTest.framework;
+			remoteRef = 08D3DBB528C83782001D796C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		08D3DBB828C83782001D796C /* FrameworkTestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FrameworkTestTests.xctest;
+			remoteRef = 08D3DBB728C83782001D796C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -256,7 +316,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				08CBCEE728C6E4FC00EA58FA /* NativeScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +484,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CBCEE928C6E96300EA58FA /* NativeViewController.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				08CBCEE528C5E58000EA58FA /* RCTModule.m in Sources */,
 				08CBCEE328C5DD5600EA58FA /* TestModule.swift in Sources */,
@@ -506,6 +564,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QDK9NM9JW9;
 				ENABLE_BITCODE = NO;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				INFOPLIST_FILE = VoteCalendarApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +591,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QDK9NM9JW9;
+				ENABLE_TESTING_SEARCH_PATHS = NO;
 				INFOPLIST_FILE = VoteCalendarApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

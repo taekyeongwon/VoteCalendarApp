@@ -1,6 +1,7 @@
 import React from 'react';
 import { HomeScreen } from '../screen/Home';
 import { DetailScreen } from '../screen/Detail';
+import { HtmlScreen } from '../screen/Html';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HomeStackParamList, RouteScreen } from './Types';
 
@@ -14,6 +15,7 @@ function StackNavigator() {
             options={{headerShown: false}}
             component={HomeScreen} />
             <RootStack.Screen name={RouteScreen.Detail} component={DetailScreen} />
+            <RootStack.Screen name={RouteScreen.Html} component={HtmlScreen} />
         </RootStack.Navigator>
     );
 }

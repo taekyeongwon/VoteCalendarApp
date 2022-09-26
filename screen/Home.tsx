@@ -13,6 +13,10 @@ export function HomeScreen({navigation}: MainNavigationProps) {
                 title = "native ui"
                 onPress={() => NativeModules.TestModule.testMethod()}
             />
+            <Button
+                title = "html"
+                onPress={() => navigation.navigate(RouteScreen.Html)}
+            />
         </SafeAreaView>
     );
 }

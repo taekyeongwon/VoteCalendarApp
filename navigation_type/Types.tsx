@@ -6,12 +6,14 @@ export enum RouteScreen {
     Main = 'Main',
     Home = 'Home',
     Detail = 'Detail',
-    Calendar = 'Calendar'
+    Calendar = 'Calendar',
+    Html = 'Html'
 }
 
 export type HomeStackParamList = {
     Home: undefined;
     Detail: undefined;
+    Html: undefined;
 }
 
 export type MainDrawerParamList = {
