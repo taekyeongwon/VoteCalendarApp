@@ -2,8 +2,10 @@ import React from 'react';
 import { HomeScreen } from '../screen/Home';
 import { DetailScreen } from '../screen/Detail';
 import { HtmlScreen } from '../screen/Html';
+import { NaverMapScreen } from '../screen/NaverMap';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HomeStackParamList, RouteScreen } from './Types';
+
 
 export const RootStack = createStackNavigator<HomeStackParamList>();
 
@@ -16,6 +18,7 @@ function StackNavigator() {
             component={HomeScreen} />
             <RootStack.Screen name={RouteScreen.Detail} component={DetailScreen} />
             <RootStack.Screen name={RouteScreen.Html} component={HtmlScreen} />
+            <RootStack.Screen name={RouteScreen.NaverMap} component={NaverMapScreen} />
         </RootStack.Navigator>
     );
 }

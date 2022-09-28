@@ -17,6 +17,10 @@ export function HomeScreen({navigation}: MainNavigationProps) {
                 title = "html"
                 onPress={() => navigation.navigate(RouteScreen.Html)}
             />
+            <Button
+                title = "naver map"
+                onPress={() => navigation.navigate(RouteScreen.NaverMap)}
+            />
         </SafeAreaView>
     );
 }
