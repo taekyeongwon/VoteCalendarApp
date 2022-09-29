@@ -2,9 +2,13 @@ import React, { useRef } from 'react';
 import { Alert, Button, SafeAreaView, View } from 'react-native';
 import { Platform } from 'react-native';
 import WebView, { WebViewMessageEvent } from 'react-native-webview';
-import RNFetchBlob from 'rn-fetch-blob';
 
-const source = (Platform.OS == 'ios') ? require('../navermap/maps.js.ncp-master/examples/map/1-map-simple.html') : { uri: 'file:///android_asset/naver/maps.js.ncp-master/examples/map/1-map-simple.html' }
+// const source = (Platform.OS == 'ios') ? require('../navermap/maps.js.ncp-master/examples/map/1-map-simple.html') : { uri: 'file:///android_asset/naver/maps.js.ncp-master/examples/map/1-map-simple.html' }
+const sourceUri = (
+    Platform.OS === 'android' 
+      ? 'file:///android_asset/' 
+      : ''
+  ) + 'Navermap.bundle/examples/map/1-map-simple.html';
 
 export function NaverMapScreen() {
     // RNFetchBlob.fs
@@ -20,6 +24,7 @@ export function NaverMapScreen() {
     // console.log(err);
     // });
 
+    console.log(sourceUri);
     let webRef = useRef<WebView>(null);
 
     const sendLocationToWebview = () => {
@@ -42,7 +47,7 @@ export function NaverMapScreen() {
                 originWhitelist={["*"]}
                 ref={webRef}
                 onMessage={onReceive}
-                source={source} 
+                source={{uri: sourceUri}} 
                 javaScriptEnabled={true}
                 automaticallyAdjustContentInsets={false}
             />

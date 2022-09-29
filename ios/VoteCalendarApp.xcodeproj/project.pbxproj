@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* VoteCalendarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VoteCalendarAppTests.m */; };
+		0826FBF928E591FD009A9A1E /* Web.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0826FBF628E591FD009A9A1E /* Web.bundle */; };
+		0826FBFB28E598C7009A9A1E /* Navermap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0826FBFA28E598C7009A9A1E /* Navermap.bundle */; };
 		08CBCEE328C5DD5600EA58FA /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBCEE228C5DD5600EA58FA /* TestModule.swift */; };
 		08CBCEE528C5E58000EA58FA /* RCTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CBCEE428C5E58000EA58FA /* RCTModule.m */; };
 		08D3DBB928C84174001D796C /* FrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3DBB628C83782001D796C /* FrameworkTest.framework */; };
 		08D3DBBA28C84174001D796C /* FrameworkTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08D3DBB628C83782001D796C /* FrameworkTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C80B921A6F3F58F76C31292 /* libPods-VoteCalendarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VoteCalendarApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-VoteCalendarApp-VoteCalendarAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */; };
+		5CD4B04C5A6937C8609D4B4E /* libPods-VoteCalendarApp-VoteCalendarAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46059A6F0C8645D83B1CB1BF /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E6F88D2DAF0EC66C181AECB2 /* libPods-VoteCalendarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683E6F706FADD76FE4B9451B /* libPods-VoteCalendarApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		00E356EE1AD99517003FC87E /* VoteCalendarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteCalendarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* VoteCalendarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteCalendarAppTests.m; sourceTree = "<group>"; };
+		0826FBF628E591FD009A9A1E /* Web.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Web.bundle; path = ../static_web/Web.bundle; sourceTree = "<group>"; };
+		0826FBFA28E598C7009A9A1E /* Navermap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Navermap.bundle; path = ../navermap/Navermap.bundle; sourceTree = "<group>"; };
 		08CBCEE228C5DD5600EA58FA /* TestModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModule.swift; sourceTree = "<group>"; };
 		08CBCEE428C5E58000EA58FA /* RCTModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTModule.m; sourceTree = "<group>"; };
 		08D3DBB028C83782001D796C /* FrameworkTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FrameworkTest.xcodeproj; path = ../../FrameworkTest/FrameworkTest.xcodeproj; sourceTree = "<group>"; };
@@ -71,13 +75,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VoteCalendarApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VoteCalendarApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VoteCalendarApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteCalendarApp-VoteCalendarAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-VoteCalendarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp.debug.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-VoteCalendarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp.release.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-VoteCalendarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteCalendarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8CABFFA43F000A14B0D220 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46059A6F0C8645D83B1CB1BF /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteCalendarApp-VoteCalendarAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683E6F706FADD76FE4B9451B /* libPods-VoteCalendarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteCalendarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VoteCalendarApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB44793BD5859896D192B4FD /* Pods-VoteCalendarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp.release.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp.release.xcconfig"; sourceTree = "<group>"; };
+		BDDDE1778FFBE75481686694 /* Pods-VoteCalendarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp.debug.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E808C671B7428CC70498F854 /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig"; path = "Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-VoteCalendarApp-VoteCalendarAppTests.a in Frameworks */,
+				5CD4B04C5A6937C8609D4B4E /* libPods-VoteCalendarApp-VoteCalendarAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-VoteCalendarApp.a in Frameworks */,
 				08D3DBB928C84174001D796C /* FrameworkTest.framework in Frameworks */,
+				E6F88D2DAF0EC66C181AECB2 /* libPods-VoteCalendarApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +135,8 @@
 		13B07FAE1A68108700A75B9A /* VoteCalendarApp */ = {
 			isa = PBXGroup;
 			children = (
+				0826FBFA28E598C7009A9A1E /* Navermap.bundle */,
+				0826FBF628E591FD009A9A1E /* Web.bundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -147,8 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-VoteCalendarApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */,
+				683E6F706FADD76FE4B9451B /* libPods-VoteCalendarApp.a */,
+				46059A6F0C8645D83B1CB1BF /* libPods-VoteCalendarApp-VoteCalendarAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,10 +194,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-VoteCalendarApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-VoteCalendarApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */,
+				BDDDE1778FFBE75481686694 /* Pods-VoteCalendarApp.debug.xcconfig */,
+				AB44793BD5859896D192B4FD /* Pods-VoteCalendarApp.release.xcconfig */,
+				1C8CABFFA43F000A14B0D220 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */,
+				E808C671B7428CC70498F854 /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,12 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VoteCalendarAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				2A621E67294F7F1334EF9982 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				4F5C5E830DCC8570B5E509C0 /* [CP] Embed Pods Frameworks */,
+				30F77AC03E332BB3E1201940 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,15 +230,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VoteCalendarApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				EAA52174B047C3662A53EB2E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 				08D3DBBB28C84174001D796C /* Embed Frameworks */,
+				25E7379D8A327FCCBA61C13E /* [CP] Embed Pods Frameworks */,
+				2ED48FE68ED7C4C5B4CEDE95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0826FBF928E591FD009A9A1E /* Web.bundle in Resources */,
+				0826FBFB28E598C7009A9A1E /* Navermap.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -338,7 +346,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		25E7379D8A327FCCBA61C13E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +363,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		2A621E67294F7F1334EF9982 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,7 +385,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		2ED48FE68ED7C4C5B4CEDE95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30F77AC03E332BB3E1201940 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5C5E830DCC8570B5E509C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA52174B047C3662A53EB2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,57 +456,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp/Pods-VoteCalendarApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteCalendarApp-VoteCalendarAppTests/Pods-VoteCalendarApp-VoteCalendarAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -504,7 +512,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */;
+			baseConfigurationReference = 1C8CABFFA43F000A14B0D220 /* Pods-VoteCalendarApp-VoteCalendarAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,7 +540,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */;
+			baseConfigurationReference = E808C671B7428CC70498F854 /* Pods-VoteCalendarApp-VoteCalendarAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,7 +565,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-VoteCalendarApp.debug.xcconfig */;
+			baseConfigurationReference = BDDDE1778FFBE75481686694 /* Pods-VoteCalendarApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -585,7 +593,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-VoteCalendarApp.release.xcconfig */;
+			baseConfigurationReference = AB44793BD5859896D192B4FD /* Pods-VoteCalendarApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -260,6 +260,9 @@ android {
             dirs 'libs'
         }
     }
+    sourceSets {
+        main { assets.srcDirs = ['src/main/assets', '../../navermap', '../../static_web'] }
+    }
 }
 
 dependencies {
